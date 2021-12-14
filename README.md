@@ -8,7 +8,7 @@ circFL-refine is a circRNA analysis pipeline to evaluate and correct full-length
 
 circFL-refine is a free software, which can be downloaded from https://github.com/yangence/circFL-refine
 
-Well trained human and mouse donor/acceptor models are available in https://github.com/yangence/circFL-refine/tree/main/model (human_acceptor_model_0.net, human_donor_model_0.net, mouse_acceptor_model_0.net, mouse_donor_model_0.net).
+Well trained human and mouse donor/acceptor models are available in https://github.com/yangence/circFL-refine/tree/master/model (human_acceptor_model_0.net, human_donor_model_0.net, mouse_acceptor_model_0.net, mouse_donor_model_0.net).
 
 ## Softwares and packages dependencies
 Python 3.x.x and corresponding versions of numpy, pandas, torch, pyfasta, scikit-learn, docopt.
@@ -39,7 +39,7 @@ samtools faidx $genome
 ```
 
 ## Examples:
-https://github.com/yangence/circFL-refine/tree/main/example
+https://github.com/yangence/circFL-refine/tree/master/example
 
 ## Usage
 ```
@@ -61,7 +61,7 @@ Options:
     -g genome                   Fasta file of genome.
     -l lines=K                  Only use first K lines for training, e.g. 30000.
     -e epoch                    Number of epoch for training [default: 1].
-    -o output                   Output dir [default: circFL_deep].
+    -o output                   Output dir [default: circFL_refine].
 ```
 
 ### evaluate
@@ -75,7 +75,7 @@ Options:
     -g genome                   Fasta file of genome.
     -d donor_model              Donor model file, output of train commond.
     -a acceptor_model           Acceptor model file, output of train commond.
-    -o output                   Output dir [default: circFL_deep].
+    -o output                   Output dir [default: circFL_refine].
 ```
 
 ### correct
@@ -91,7 +91,7 @@ Options:
     -a acceptor_model           Acceptor model file, output of train commond.
     -e mistake=k                Isoforms with less than k mistaken splice site to be corrected [default: 1].
     -i dist                     Maximum distance of nearby predicted splice site [default: 20].
-    -o output                   Output dir [default: circFL_deep].
+    -o output                   Output dir [default: circFL_refine].
 ```
 
 ## Output files
