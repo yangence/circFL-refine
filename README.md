@@ -7,6 +7,7 @@ circFL-refine is a circRNA analysis pipeline to evaluate and correct full-length
 ## Availability
 
 circFL-refine is a free software, which can be downloaded from https://github.com/yangence/circFL-refine
+
 Well trained human and mouse donor/acceptor models are available in https://github.com/yangence/circFL-refine/tree/main/model (human_acceptor_model_0.net, human_donor_model_0.net, mouse_acceptor_model_0.net, mouse_donor_model_0.net).
 
 ## Softwares and packages dependencies
@@ -125,6 +126,7 @@ Options:
 |  18 | acceptorMotif          | motif of acceptor splice site |
 |  19 | acceptorPredict   | prediction score of acceptor splice site |
 |  20 | acceptorPredictMin          | minium prediction score of acceptor splice site |
+
 Isoforms with donorPredictMin>0.5 and acceptorPredictMin>0.5 are considered as evaluate passed.
 
 ### fl_correct.detail
