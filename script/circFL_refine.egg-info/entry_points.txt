@@ -1,0 +1,3 @@
+[console_scripts]
+circFL-refine = circFL_refine.circFL_refine_main:main
+

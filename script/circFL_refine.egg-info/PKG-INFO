@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: circFL-refine
+Version: 1.0.0
+Summary: circFL-refine: a tool for full-length circRNA isoform construction based on convolutional neural network
+Home-page: https://github.com/yangence/circFL-refine
+Author: Zelin Liu
+Author-email: zlliu@bjmu.edu.cn
+License: GPL3
+Description: UNKNOWN
+Keywords: circular RNAs
+Platform: UNKNOWN
+Requires-Python: >=3
