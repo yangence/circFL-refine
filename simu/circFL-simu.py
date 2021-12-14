@@ -3,14 +3,14 @@ Usage: circFL-simu.py -g genome -a annotation -o outDir -e errorRate -n numRC [-
 
 Options:
     -h --help                   Show help message.
+    -g genome                   Fasta file of genome.
+    -a annotation               GTF file.
     -o outDir                   Output dir.
     -e errorRate                Error rate.
     -n numRC                    Number of rolling circles.
     --min minLengh              Minimum length of circRNA isoform [default: 400].
     --max maxLength             Maximum length of circRNA isoform [default: 600].
     -c maxCoverage              Maximum coverage of full-length circRNA isoform [default: 10].
-    -g genome                   Fasta file of genome.
-    -a annotation               GTF file.
     -i circNum                  Number of simulated circRNAs [default: 10000].
 '''
 import pandas as pd,numpy as np,pysam,os,sys,gzip
