@@ -8,11 +8,11 @@ circFL-refine is a circRNA analysis pipeline to evaluate and correct full-length
 
 circFL-refine is a free software, which can be downloaded from https://github.com/yangence/circFL-refine
 
-Well trained human and mouse donor/acceptor models are available in https://github.com/yangence/circFL-refine/tree/master/model (human_acceptor_model_0.net, human_donor_model_0.net, mouse_acceptor_model_0.net, mouse_donor_model_0.net).
+Well trained human and mouse donor/acceptor models are available in https://github.com/yangence/circFL-refine/tree/master/model
 
 ## Softwares and packages dependencies
-Python 3.x.x and corresponding versions of numpy, pandas, torch, pyfasta, scikit-learn, docopt.
 
+Python 3.x.x and corresponding versions of numpy, pandas, torch, pyfasta, scikit-learn, docopt.
 
 ## Installation
 Install latest release from pip
@@ -40,6 +40,9 @@ samtools faidx $genome
 
 ## Examples:
 https://github.com/yangence/circFL-refine/tree/master/example
+
+## Nanopore reads simulation
+https://github.com/yangence/circFL-refine/tree/master/simu
 
 ## Usage
 ```
