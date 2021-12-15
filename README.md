@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python setup.py install
 ```
 
-## Required files:
+## Required files
 
 Users can prepare the external files under the following instructions:
 
@@ -44,7 +44,7 @@ Indexed genome fasta file
 samtools faidx $genome
 ```
 
-## Examples:
+## Examples
 https://github.com/yangence/circFL-refine/tree/master/example
 
 ## Nanopore reads simulation
