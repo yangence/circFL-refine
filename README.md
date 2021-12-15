@@ -8,7 +8,7 @@ circFL-refine is a circRNA analysis pipeline to evaluate and correct full-length
 
 circFL-refine is a free software, which can be downloaded from https://github.com/yangence/circFL-refine
 
-Well trained human and mouse donor/acceptor models are available in https://github.com/yangence/circFL-refine/tree/master/model
+Well trained human and mouse donor/acceptor models are available at https://github.com/yangence/circFL-refine/tree/master/model
 
 Curated datasets of full-length circRNA isoforms are visalized at UCSC, including isoforms from [human](https://genome-asia.ucsc.edu/s/circfl/hg19_human_circ) and [mouse](https://genome-asia.ucsc.edu/s/circfl/mm10_mouse_circ)
 
